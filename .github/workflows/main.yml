@@ -45,6 +45,7 @@ jobs:
            push: true
            tags:
               manuelduarte/api-bootcamp-produto:latest
+              manuelduarte/api-bootcamp-produto:${{github.run_number}}
 
   CD:
     runs-on: ubuntu-latest
